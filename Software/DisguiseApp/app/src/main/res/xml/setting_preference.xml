@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/custom_preference"/>
+
+    <!--PreferenceCategory android:title="">
+        <CheckBoxPreference android:title="夜间模式" android:key="open_dark" android:summary="开启时自动夜间无效" android:defaultValue="false" />
+        <CheckBoxPreference android:title="自动夜间" android:key="auto_dark" android:summary="8:00~20:00" android:defaultValue="false" />
+    </PreferenceCategory-->
+
+    <PreferenceCategory android:title="设备扫描">
+        <EditTextPreference
+            android:key="scan_time"
+            android:title="扫描时间"
+            android:summary="默认是20000ms" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="设备连接">
+        <EditTextPreference
+            android:key="mac_address"
+            android:title="MAC地址"
+            android:summary="MAC地址唯一" />
+        <CheckBoxPreference
+            android:title="启用连接"
+            android:key="auto_connect"
+            android:summary="启用此模式需绑定MAC地址"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于说明">
+        <PreferenceScreen android:title="脚本说明" android:key="script_introduction"/>
+        <PreferenceScreen android:title="APP说明" android:key="app_introduction"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

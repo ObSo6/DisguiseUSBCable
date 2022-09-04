@@ -2,6 +2,8 @@
 
 蓝牙控制的低成本伪装成数据线的BadUSB。:)
 
+**如果您发现项目中存在任何问题和疑问，对于您得提交深深感激！**
+
 #### BadUSB
 
 一个写入了恶意代码的定制USB设备，例如U盘，将其插入到电脑设备后，它会伪装成HID设备（鼠标，键盘等），然后执行恶意代码。
@@ -18,7 +20,7 @@
 
 3. HID攻击，完整的兼容BadUSB的DuckyScript脚本，关于脚本说明。
 
-   [脚本说明]: Markdown/DuckyScript.md
+   [脚本说明][Markdown/DuckyScript.md ]
 
 4. 脚本编辑与修改。
 
@@ -36,20 +38,28 @@ HID:	CH9328
 
 稳压:	LP2992
 
-#### 软件说明
+##### 数据流程
 
-主页扫描页面
+1. 解析DuckScript脚本，（单个按键以及组合按键和字符输出，转化成键盘代码）。
+2. 将上述键盘代码发送到DX-BAT24-T蓝牙芯片。[键盘代码说明][Markdown/KeyBoard.md]
+3. DX-BAT24-T蓝牙芯片对数据通过TX发送给CH9328，CH9328对数据进行执行HID。
 
-<img src="Images/scan.jpg" alt="1" style="zoom:33%;" />
+#### 使用说明
 
-hid攻击页面
+1. 将数据线插入到目标的设备后，打开手机的蓝牙以及定位和APP。
+2. 扫描蓝牙设备。
+3. 执行HID攻击或者模拟键盘。
 
-<img src="Images/hid.jpg" alt="2" style="zoom:33%;" />
+#### 感谢说明
 
-编译脚本页面
+由于部分参考来自互联网。
 
-<img src="Images/edit.jpg" alt="3" style="zoom:33%;" />
+- 感谢大夏龙雀的DX-BAT24-T芯片以及APP代码
+- 施工中。。。
 
-键盘模拟页面
+#### 联系说明
 
-<img src="Images/key.jpg" alt="4" style="zoom:33%;" />
+添加微信，拉您入群
+
+![wechat](Images/wechat.jpg)
+

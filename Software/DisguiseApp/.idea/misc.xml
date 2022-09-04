@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/button_background.xml" value="0.176" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/container_actived.xml" value="0.176" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/container_background_noactive.xml" value="0.192" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/container_noactive.xml" value="0.102" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/edit_background.xml" value="0.102" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/ic_link_32.xml" value="0.176" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/ic_link_off_32.xml" value="0.19" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/ic_link_on_32.xml" value="0.19" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/ic_refresh_32.xml" value="0.1" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/key.xml" value="0.176" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable-v24/key_blue.xml" value="0.19" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/drawable/ic_progress.xml" value="0.1925" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/MainActivity.xml" value="0.1" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/about_bar.xml" value="0.335" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/add_bar.xml" value="0.1962962962962963" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/custom_preference.xml" value="0.25" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/devices_listitem.xml" value="0.16621376811594202" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/edit_activity.xml" value="0.30117753623188404" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/edit_bar.xml" value="0.2811965811965812" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/hid_activity.xml" value="0.165" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/hid_bar.xml" value="0.19537037037037036" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/key_activity.xml" value="0.22" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/key_bar.xml" value="0.16666666666666666" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/loading_bar.xml" value="0.25" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/main_activity.xml" value="0.2885964912280702" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/scan_bar.xml" value="0.25" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/script_listitem.xml" value="0.11911231884057971" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/setting_bar.xml" value="0.25" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/setting_bar_about.xml" value="0.25" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/setting_bar_connect.xml" value="0.1480978260869565" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/status_bar.xml" value="0.375" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/title_bar.xml" value="0.375" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/toast_bar.xml" value="0.1" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/layout/welcome_activity.xml" value="0.22" />
+        <entry key="..\:/project/DisguiseApp/app/src/main/res/xml/setting_preference.xml" value="0.4466666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

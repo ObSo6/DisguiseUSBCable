@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DisguiseApp</string>
+    <string name="welcome_version">版本号v0.1</string>
+    <string name="welcome_http_url">https://github.com/</string>
+    <string name="welcome_url">ObSo6/DisguiseUSBCable</string>
+    <string name="welcome_title">伪装者数据线</string>
+    <string name="welcome_subtitle">Disguise Cable</string>
+    <string name="about_title1">关于</string>
+    <string name="about_title2">项目</string>
+    <string name="add_title">添 加 脚 本</string>
+    <string name="about_subtitle">DisguiseCable是数据线版本的BadUSB。\n此APP是DisguiseCable的Android控制端。</string>
+    <string name="no_local_permits">APP无法获取定位权限，请手动赋予！</string>
+    <string name="no_bluetooth_enable">APP无法打开蓝牙，请手动打开！</string>
+    <string name="no_bluetooth_devices">设备不支持蓝牙！</string>
+    <string name="no_ble_devices">设备不支持BLE！</string>
+    <string name="auto_connect_device">"自动连接到设备"</string>
+    <string name="double_click_exit">再次点击返回按钮退出</string>
+    <string name="exit_toast">退出前请先停止连接或断开连接</string>
+
+</resources>
